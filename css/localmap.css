@@ -1,0 +1,44 @@
+body {
+  font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+}
+.login-form {
+  margin: 200px auto;
+  width: 400px;
+  background-color: white;
+  border: 2px solid #4dffb0;
+}
+.login-title {
+  background-color: #4dffb0;
+  letter-spacing: .7em;
+  margin: 0;
+}
+.loginbox {
+  position: relative;
+  margin: .1em;
+  padding: 0;
+  height: 3em;
+}
+.loginicon {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  padding: 0;
+  width: 13%;
+  height: 100%;
+  font-size:20px;
+  line-height: 2.5em;
+  background-color: #cdffe9;
+  color: #000;
+  border-right: 3px solid #4dffb0;
+}
+.logintext {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  padding-left: .8em;
+  width: 87%;
+  height: 100%;
+  border-style: none;
+  background-color: #cdffe9;
+}
